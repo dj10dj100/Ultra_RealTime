@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="socket.io/socket.io.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+    <script src="/data/data.js"></script>
+    <script src="/data/styles.js"></script>
+    <script src="/javascripts/detector.js"></script>
+    <script src="/javascripts/dat.gui.js"></script>
+    <script src="/javascripts/three.js"></script>
+    <script src="/javascripts/threejs-layer.js"></script>
+    <script src="/javascripts/stats.js"></script>
+    <script src="/javascripts/raphael.js"></script>
+    <script src="/javascripts/realTimeMap.js"> </script>
+
+  </head>
+  <body>
+
+    <div id="map-div"></div>
+    <!--     
+      <h1><%= title %></h1>
+      <p>Welcome to <%= title %></p> 
+    -->
+
+    <happiness>
+      <h3>Happiness : <span>0</span> </h3>
+    </happiness>
+
+    <header>
+      <img src="/images/logo.png" width="125"/>
+    </header>    
+
+
+        
+      <tweets>  
+        <ul>
+
+        </ul>
+      </tweets> 
+   
+  </body>
+</html>
